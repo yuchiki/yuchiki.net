@@ -1,0 +1,5 @@
+exclude: ['Gemfile', 'Gemfile.lock', 'deploy.sh', 'secret', 'deploy.sh']
+
+sass:
+  syntax: scss
+  style: compact
