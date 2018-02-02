@@ -1,6 +1,77 @@
 ---
 
 ---
+@keyframes blink {
+    75% {
+        opacity: 0.0;
+    }
+}
+
+@keyframes colorful {
+    0% { color: black; }
+    20% { color: red; }
+    40% { color: blue; }
+    60% { color: yellow; }
+    80% { color: green; }
+}
+
+@keyframes thinthick {
+    0% { font-size: 100%; }
+    5% { font-size: 137%; }
+    10% { font-size: 243%; }
+    15% { font-size: 409%; }
+    20% { font-size: 618%; }
+    25% { font-size: 850%; }
+    30% { font-size: 1082%; }
+    35% { font-size: 1291%; }
+    40% { font-size: 1457%; }
+    45% { font-size: 1563%; }
+    50% { font-size: 1600%; }
+    55% { font-size: 1563%; }
+    60% { font-size: 1457%; }
+    65% { font-size: 1291%; }
+    70% { font-size: 1082%; }
+    75% { font-size: 850%; }
+    80% { font-size: 618%; }
+    85% { font-size: 409%; }
+    90% { font-size: 243%; }
+    95% { font-size: 137%; }
+}
+
+@keyframes thinthicksmall {
+    0% { font-size: 100%; }
+    5% { font-size: 115%; }
+    10% { font-size: 157%; }
+    15% { font-size: 224%; }
+    20% { font-size: 307%; }
+    25% { font-size: 400%; }
+    30% { font-size: 493%; }
+    35% { font-size: 576%; }
+    40% { font-size: 643%; }
+    45% { font-size: 685%; }
+    50% { font-size: 700%; }
+    55% { font-size: 685%; }
+    60% { font-size: 643%; }
+    65% { font-size: 576%; }
+    70% { font-size: 493%; }
+    75% { font-size: 400%; }
+    80% { font-size: 307%; }
+    85% { font-size: 224%; }
+    90% { font-size: 157%; }
+    95% { font-size: 115%; }
+}
+
+.center {
+    text-align: center;
+}
+
+.blinker {
+    animation: blink 2.9s infinite, colorful 0.4s infinite, thinthick 0.62s infinite;
+}
+
+.small-blinker {
+    animation: blink 2.9s infinite, colorful 0.4s infinite, thinthicksmall 0.62s infinite;
+}
 
 .nav-to-top {
     a {
