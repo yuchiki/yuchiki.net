@@ -44,6 +44,14 @@
   85% { font-size: 224%; }
   90% { font-size: 157%; }
   95% { font-size: 115%; } }
+.nicomoji { font-family: "Nico Moji"; }
+
+.hannari { font-family: "Hannari"; }
+
+.rounded { font-family: "Rounded Mplus 1c"; }
+
+body { font-family: "Rounded MPlus 1c"; }
+
 .center { text-align: center; }
 
 .blinker { animation: blink 2.9s infinite, colorful 0.4s infinite, thinthick 0.62s infinite; }
