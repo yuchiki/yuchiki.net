@@ -1,15 +1,17 @@
+- font_dir = 'https://fonts.googleapis.com/earlyaccess'
+- define_method('font_path') { |name| "#{font_dir}/#{name}.css" }
 !!!
-%html{lang: "ja"}
+%html{ lang: 'ja' }
     %head
-        %meta{charset: "UTF-8"}
+        %meta{ charset: 'UTF-8' }
         %title Yuchiki.net
-        %link{rel: "stylesheet", href: "https://fonts.googleapis.com/earlyaccess/nicomoji.css"}
-        %link{rel: "stylesheet", href: "https://fonts.googleapis.com/earlyaccess/hannari.css"}
-        %link{rel: "stylesheet", href: "https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css"}
-        %link{rel: "stylesheet", href: "/css/styles.css"}
-        %link{rel: "icon", href: "/favicon.ico"}
+        %link{ rel: 'stylesheet', href: font_path('nicomoji') }
+        %link{ rel: 'stylesheet', href: font_path('hannnari') }
+        %link{ rel: 'stylesheet', href: font_path('roundedmplus1c') }
+        %link{ rel: 'stylesheet', href: '/css/styles.css' }
+        %link{ rel: 'icon', href: '/favicon.ico' }
     %body
         %h1.nav-to-top
-            %a{ href: '/'} Yuchiki.net
+            %a{ href: '/' } Yuchiki.net
         %hr
         {{content}}

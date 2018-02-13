@@ -1,0 +1,9 @@
+language: node_js
+node-js: "6.0.0"
+before_install:
+    - sudo apt-get update -qq
+    - npm install -g npm@'>=5.5.1'
+    - nvm install 8.7.0
+    - nvm use 8.7.0
+    - npm install -g htmlhint
+script: 
