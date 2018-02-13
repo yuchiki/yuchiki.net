@@ -4,3 +4,4 @@ rules:
         -
             size: 4
     no-color-keywords: 0
+    no-color-literals: 0

@@ -61,12 +61,12 @@
     95% { font-size: 115%; }
 }
 
-.nicomoji { font-family: "Nico Moji"; }
-.hannari { font-family: "Hannari"; }
-.rounded { font-family: "Rounded Mplus 1c";}
+.nicomoji { font-family: 'Nico Moji'; }
+.hannari { font-family: 'Hannari'; }
+.rounded { font-family: 'Rounded Mplus 1c';}
 
 body {
-    font-family: "Rounded MPlus 1c";
+    font-family: 'Rounded MPlus 1c';
 }
 
 .center {
@@ -74,18 +74,19 @@ body {
 }
 
 .blinker {
-    animation: blink 2.9s infinite, colorful 0.4s infinite, thinthick 0.62s infinite;
+    animation: blink 2.9s infinite, colorful .4s infinite, thinthick .62s infinite;
 }
 
 .small-blinker {
-    animation: blink 2.9s infinite, colorful 0.4s infinite, thinthicksmall 0.62s infinite;
+    animation: blink 2.9s infinite, colorful .4s infinite, thinthicksmall .62s infinite;
 }
 
 .nav-to-top {
     a {
         text-decoration: none;
-    }
-    a:visited {
-        color: inherit;
+
+        :visited {
+            color: inherit;
+        }
     }
 }
