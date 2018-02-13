@@ -5,5 +5,5 @@ before_install:
     - npm install -g npm@'>=5.5.1'
     - nvm install 8.7.0
     - nvm use 8.7.0
-    - npm install -g htmlhint
+    - npm install -g htmlhint haml-lint sass-lint
 script: 

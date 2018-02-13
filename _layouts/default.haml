@@ -1,5 +1,5 @@
 - font_dir = 'https://fonts.googleapis.com/earlyaccess'
-- define_method('font_path') { |name| "#{font_dir}/#{name}.css" }
+- define_singleton_method('font_path') { |name| "#{font_dir}/#{name}.css" }
 !!!
 %html{ lang: 'ja' }
     %head
