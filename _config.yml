@@ -1,4 +1,4 @@
-exclude: ['Gemfile', 'Gemfile.lock', 'deploy.sh', 'secret', 'deploy.sh']
+exclude: ['Gemfile', 'Gemfile.lock', 'deploy.sh', 'secret', 'deploy.sh', 'makefile', 'README.md']
 
 sass:
   syntax: scss
